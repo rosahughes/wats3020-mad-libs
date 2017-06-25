@@ -19,45 +19,64 @@ let honorific = prompt('Please enter an honorific title (e.g. Mister or Colonel)
 let authorName = prompt('What is your full name?');
 
 // TODO: A variable named "adjective1" for a word used to describe something.
+let adjective1 = prompt('Tell me a word you use to describe things a lot.');
 
 // TODO: A variable named "vehicle" for a mode of transation (e.g. plane, boat, etc.).
+let vehicle = prompt('Would you rather travel in a plane, train, or automobile?');
 
 // TODO: A variable named "vehiclePart" for a part of the vehicle you just named.
+let vehiclePart = prompt('What is your favorite part of that plane, train, or automobile?');
 
 // TODO: A variable named "parking" for a location where you park the vehicle you just named.
+let parking = prompt('And where would you park the plane, train, or automobile?');
 
 // TODO: A variable named "precious" for a precious object.
+let precious = prompt('What is your most prized possession?');
 
 // TODO: A variable named "noiseMaker" for something that makes a sound.
+let noiseMaker = prompt('Pick an object that makes a loud sound.');
 
 // TODO: A variable named "crowdBehavior" for something that people do together as a group.
+let crowdBehavior = prompt('What is a fun group activity?');
 
 // TODO: A variable named "adjective2" for a word used to describe something.
+let adjective2 = prompt('Tell me another word you use to describe things.');
 
 // TODO: A variable named "adjective3" for a word used to describe something.
+let adjective3 = prompt('Ok, tell me one more word you use to describe things.');
 
 // TODO: A variable named "color" for the name of a color.
+let color = prompt('What is your favorite color?');
 
 // TODO: A variable named "familyMember" for the name of a family relationship (e.g. sister, father, etc.).
+let familyMember = prompt('Pick a family member and tell me how they are related to you.');
 
 // TODO: A variable named "organ" for the name of a body organ (e.g. heart, liver, spleen, etc.).
+let organ = prompt('Choose an organ in the human body.');
 
 // TODO: A variable named "bodyPart1" for the name of a body part.
+let bodyPart1 = prompt('Choose a body part.');
 
 // TODO: A variable named "bodyPart2" for the name of a body part.
+let bodyPart2 = prompt('And another body part.');
 
 // TODO: A variable named "bodyPart3" for the name of a body part.
+let bodyPart3 = prompt('And choose one more body part.');
 
 // TODO: A variable named "thing" for an object.
+let thing = prompt('Pick a random object.');
 
 // TODO: A variable named "thing2" for an object you might give somebody you love.
+let thing2 = prompt('Pick an object you might give to someone you love.');
 
 // TODO: A variable named "thing3" for an object you might give somebody you like.
+let thing3 = prompt('Pick an object you might give to someone you like okay, but do not love.');
 
 // TODO: A variable named "adjective4" for a word used to describe the vehicle.
+let adjective4 = prompt('Ok, I lied. One more descritive word here.');
 
 // TODO: A variable named "adjective5" for a word used to describe the vehicle.
-
+let adjective5 = prompt('And one final descriptive word.');
 
 ////////////////////////////////////////////////////////////////////////
 // Section Numbers
@@ -67,10 +86,13 @@ let authorName = prompt('What is your full name?');
 //
 // TODO: To begin with, prompt the user to collect their favorite number that is not zero.
 // Call this variable "userNumber".
+let userNumber = prompt('What is your lucky number?');
 
 // TODO: generate TWO more numbers called "number2" and "number 3".
 // Use any operator you would like to add, multiply, divide, or otherwise
 // change the number that the user submitted.
+let number2 = userNumber **2;
+let number3 = userNumber / number2 + (userNumber * 12);
 
 
 // DO NOT EDIT BELOW THIS LINE /////////////////////////////////////////
